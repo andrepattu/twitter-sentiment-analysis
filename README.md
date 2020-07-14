@@ -9,3 +9,5 @@
 * [TextBlob](https://textblob.readthedocs.io/en/dev/)
 
 Dataset taken from [Kaggle](https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech?select=train.csv)
+
+Run *Naive_Bayes.py* after cloning repo to local device
