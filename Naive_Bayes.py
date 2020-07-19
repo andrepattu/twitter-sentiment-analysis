@@ -24,7 +24,7 @@ train_tweets[train_tweets['label']==1].drop('tweet',axis=1).head(5)
 train_tweets[train_tweets['label']==0].drop('tweet',axis=1).head(5)
 
 # Split data 
-content_train, content_test, label_train, label_test = train_test_split(train_tweets['tweet'], train_tweets['label'], test_size=0.1)
+content_train, content_test, label_train, label_test = train_test_split(train_tweets['tweet'], train_tweets['label'], test_size=0.15)
 
 #Pipeline: strings to token integer counts, integer counts to weighted TF-IDF scores and then Naive Bayes classifier 
 pipeline = Pipeline([
